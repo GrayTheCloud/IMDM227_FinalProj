@@ -3,10 +3,8 @@ using UnityEngine.UI;
 
 public class StoryScene : MonoBehaviour, INode
 {
-    // the next two scenes
-    public StoryScene next1;
-    public StoryScene next2;
-
+    // next scenes, max of 3
+    public StoryScene[] nextScenes = new StoryScene[3];
 
     // the two buttons
     public MyButton button1;
@@ -30,7 +28,6 @@ public class StoryScene : MonoBehaviour, INode
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
     }
 
     // Update is called once per frame

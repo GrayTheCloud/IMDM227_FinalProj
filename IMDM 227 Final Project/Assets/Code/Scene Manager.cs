@@ -47,40 +47,55 @@ public class SceneManager : MonoBehaviour
      */
     void ButtonClicked(MyButton button)
     {
-        if (button.choiceNum == 0)
+        int index = button.choiceNum;
+        Debug.Log("choice " + index);
+        if (current.endReached)
         {
-            Debug.Log("choice 1");
-            if (current.endReached) 
+            if (current.nextScenes[index] != null)
             {
-                if(current.next1 != null)
-                {
-                    SwitchScene(current.next1);
-                }
-            } 
-            else
-            {
-                current.advanceDialogue(button.choiceNum);
+                SwitchScene(current.nextScenes[index]);
             }
-            
         }
         else
         {
-            Debug.Log("choice 2");
-            if(current.endReached)
-            {
-                if(current.next2 != null)
-                {
-                    SwitchScene(current.next2);
-                }
-                
-            } 
-            else
-            {
-                current.advanceDialogue(button.choiceNum);
-            }
-
-
+            current.advanceDialogue(index);
         }
+
+
+        //if (button.choiceNum == 0)
+        //{
+        //    Debug.Log("choice 1");
+        //    if (current.endReached) 
+        //    {
+        //        if(current.next1 != null)
+        //        {
+        //            SwitchScene(current.next1);
+        //        }
+        //    } 
+        //    else
+        //    {
+        //        current.advanceDialogue(button.choiceNum);
+        //    }
+            
+        //}
+        //else
+        //{
+        //    Debug.Log("choice 2");
+        //    if(current.endReached)
+        //    {
+        //        if(current.next2 != null)
+        //        {
+        //            SwitchScene(current.next2);
+        //        }
+                
+        //    } 
+        //    else
+        //    {
+        //        current.advanceDialogue(button.choiceNum);
+        //    }
+
+
+        //}
     }
 
 

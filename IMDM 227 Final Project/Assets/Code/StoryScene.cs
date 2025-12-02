@@ -6,9 +6,10 @@ public class StoryScene : MonoBehaviour, INode
     // next scenes, max of 3
     public StoryScene[] nextScenes = new StoryScene[3];
 
-    // the two buttons
+    // the three buttons
     public MyButton button1;
     public MyButton button2;
+    public MyButton button3;
 
     // are we at the end of the scene
     public bool endReached = false;

@@ -619,6 +619,10 @@ PrefabInstance:
       propertyPath: 'nextScenes.Array.data[1]'
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4875117294056376192, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c2174d58a57112c42bd4250c665d91f7, type: 2}
     - target: {fileID: 4895283015227941777, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: m_Name
       value: Start

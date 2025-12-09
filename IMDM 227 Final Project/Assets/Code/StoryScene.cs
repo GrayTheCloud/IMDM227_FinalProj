@@ -1,3 +1,4 @@
+using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -23,7 +24,9 @@ public class StoryScene : MonoBehaviour, INode
     public Dialogue exchange = null;
 
     // speed text should be typed at
-    [SerializeField] private int typeSpeed;
+    [SerializeField] private float typeSpeed;
+    private float MAX_TYPE_TIME = 0.1f;
+    private Coroutine typingCorutine;
     // textbox for displaying main text
     [SerializeField] private TextMeshProUGUI textMeshPro;
 
@@ -42,7 +45,9 @@ public class StoryScene : MonoBehaviour, INode
             exchange.curr = exchange.start;
             Debug.Log(exchange.curr.numChoices);
             // setting the main text to the first main text
-            textMeshPro.text = exchange.curr.paragraph;
+            // textMeshPro.text = exchange.curr.paragraph;
+            typingCorutine = StartCoroutine(TypeText(exchange.curr.paragraph));
+            UpdateButtons(exchange.curr.numChoices, exchange.curr.choicesText);
             // if there is only one node in the graph the end has been reached
             endReached = exchange.curr.numChoices == 0;
         }
@@ -74,18 +79,23 @@ public class StoryScene : MonoBehaviour, INode
             if (exchange.curr != null)
             {
                 // set textbox text to paragraph of the current node
-                textMeshPro.text = exchange.curr.paragraph;
+                // textMeshPro.text = exchange.curr.paragraph;
+                typingCorutine = StartCoroutine(TypeText(exchange.curr.paragraph));
                 // activate one button per dialogue choice and add text to button
+                
                 int numChoices = exchange.curr.numChoices;
-                for (int i = 0; i < numChoices; i++)
-                {
-                    buttons[i].gameObject.SetActive(true);
-                    buttons[i].text.text = exchange.curr.choicesText[i];
-                }
+                Debug.Log("This node has " + numChoices + " choices.");
+                // for (int i = 0; i < numChoices; i++)
+                // {
+                //     Debug.Log("I'm turining on button " + i);
+                //     buttons[i].gameObject.SetActive(true);
+                //     buttons[i].text.text = exchange.curr.choicesText[i];
+                // }
 
-                Debug.Log(exchange.curr.numChoices);
+                UpdateButtons(numChoices, exchange.curr.choicesText);
+                // Debug.Log(exchange.curr.numChoices);
                 // if there are no more reachable nodes run the end of the scene has been reached
-                if(exchange.curr.numChoices == 0)
+                if(numChoices == 0)
                 {
                     endReached = true;
                     EndReached();
@@ -99,24 +109,55 @@ public class StoryScene : MonoBehaviour, INode
     {
         Debug.Log("running end reached");
         // set the buttons to go to the end of the scene
-        for (int i = 0; i < numChoices; i++)
+        // for (int i = 0; i < numChoices; i++)
+        // {
+        //     buttons[i].gameObject.SetActive(true);
+        //     buttons[i].text.text = choicesText[i];
+        // }
+        UpdateButtons(numChoices, choicesText);
+    }
+
+
+    private void callType(string p)
+    {
+        typingCorutine = StartCoroutine(TypeText(p));
+    }
+
+    // modified from code for an IMDM 101 project
+    private IEnumerator TypeText(string p)
+    {
+        int maxVisibleChars = 0;
+
+        textMeshPro.text = p;
+        textMeshPro.maxVisibleCharacters = maxVisibleChars;
+
+        foreach(char c in p.ToCharArray())
         {
+            maxVisibleChars++;
+            textMeshPro.maxVisibleCharacters = maxVisibleChars;
+
+            yield return new WaitForSeconds(MAX_TYPE_TIME / typeSpeed);
+        }
+
+        Debug.Log("Finished typing");
+    }
+
+    private void UpdateButtons(int num, string[] buttonsText)
+    {
+        for(int i = 0; i < buttons.Length; i++)
+        {
+            Debug.Log("I'm turning off button " + i);
+            buttons[i].gameObject.SetActive(false);
+            buttons[i].text.text = "";
+        }
+        for (int i = 0; i < num; i++)
+        {
+            Debug.Log("I'm turning on button " + i);
             buttons[i].gameObject.SetActive(true);
-            buttons[i].text.text = choicesText[i];
+            buttons[i].text.text = buttonsText[i];
         }
     }
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        chosen();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+ 
 
 
 }

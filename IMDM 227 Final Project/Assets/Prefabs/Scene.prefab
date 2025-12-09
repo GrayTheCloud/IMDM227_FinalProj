@@ -816,7 +816,7 @@ MonoBehaviour:
   - 
   endReached: 1
   exchange: {fileID: 0}
-  typeSpeed: 0
+  typeSpeed: 10
   textMeshPro: {fileID: 2760589194424863706}
 --- !u!1 &5307145346536992289
 GameObject:

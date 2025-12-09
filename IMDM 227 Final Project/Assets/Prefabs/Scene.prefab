@@ -619,7 +619,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 4, y: 2, z: 2, w: 2}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -816,6 +816,7 @@ MonoBehaviour:
   - 
   endReached: 1
   exchange: {fileID: 0}
+  typeSpeed: 0
   textMeshPro: {fileID: 2760589194424863706}
 --- !u!1 &5307145346536992289
 GameObject:

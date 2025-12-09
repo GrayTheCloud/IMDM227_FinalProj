@@ -128,6 +128,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: numChoices
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'nextScenes.Array.data[0]'
       value: 
       objectReference: {fileID: 1913850447}
@@ -419,9 +423,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: numChoices
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'nextScenes.Array.data[0]'
       value: 
       objectReference: {fileID: 2103512530}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'choicesText.Array.data[0]'
+      value: go to kitchen
+      objectReference: {fileID: 0}
     - target: {fileID: 4895283015227941777, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: m_Name
       value: Talk More
@@ -475,6 +487,17 @@ PrefabInstance:
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
   m_PrefabInstance: {fileID: 695571837}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79aab1713d2a1f04f97d5a9e00499f18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &704853173 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+  m_PrefabInstance: {fileID: 1590761446}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -627,12 +650,24 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: endReached
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: numChoices
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'nextScenes.Array.data[0]'
       value: 
       objectReference: {fileID: 1877882311}
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'nextScenes.Array.data[1]'
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'choicesText.Array.data[0]'
+      value: Entryway
       objectReference: {fileID: 0}
     - target: {fileID: 4875117294056376192, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -696,9 +731,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: numChoices
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'nextScenes.Array.data[0]'
       value: 
       objectReference: {fileID: 180326667}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'choicesText.Array.data[0]'
+      value: leave (cool)
+      objectReference: {fileID: 0}
     - target: {fileID: 4895283015227941777, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: m_Name
       value: tense conversation
@@ -836,6 +879,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: numChoices
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'nextScenes.Array.data[0]'
       value: 
       objectReference: {fileID: 2103512530}
@@ -901,6 +948,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: d65464a1cf5761241aaaeb4b661b17db, type: 2}
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: endReached
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: numChoices
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'nextScenes.Array.data[0]'
       value: 
       objectReference: {fileID: 1547251706}
@@ -912,6 +967,18 @@ PrefabInstance:
       propertyPath: 'nextScenes.Array.data[2]'
       value: 
       objectReference: {fileID: 1956378224}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'choicesText.Array.data[0]'
+      value: leave
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'choicesText.Array.data[1]'
+      value: talk more
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'choicesText.Array.data[2]'
+      value: put stuff away
+      objectReference: {fileID: 0}
     - target: {fileID: 4895283015227941777, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: m_Name
       value: Entryway
@@ -1048,6 +1115,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: exchange
+      value: 
+      objectReference: {fileID: 11400000, guid: aa5090ef910ee6c42b02494527e15987, type: 2}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: endReached
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: numChoices
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'nextScenes.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2103512530}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'nextScenes.Array.data[1]'
+      value: 
+      objectReference: {fileID: 704853173}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'choicesText.Array.data[0]'
+      value: go to kitchen
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'choicesText.Array.data[1]'
+      value: look around bedroom
+      objectReference: {fileID: 0}
     - target: {fileID: 4895283015227941777, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: m_Name
       value: Put Stuff Away
@@ -1117,6 +1212,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: numChoices
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'nextScenes.Array.data[0]'
       value: 
       objectReference: {fileID: 1306028225}
@@ -1124,6 +1223,14 @@ PrefabInstance:
       propertyPath: 'nextScenes.Array.data[1]'
       value: 
       objectReference: {fileID: 35831796}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'choicesText.Array.data[0]'
+      value: tense convo
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'choicesText.Array.data[1]'
+      value: go to bed
+      objectReference: {fileID: 0}
     - target: {fileID: 4895283015227941777, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: m_Name
       value: Kitchen

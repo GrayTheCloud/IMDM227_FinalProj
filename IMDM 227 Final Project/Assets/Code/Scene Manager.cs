@@ -47,55 +47,26 @@ public class SceneManager : MonoBehaviour
      */
     void ButtonClicked(MyButton button)
     {
+        Debug.Log("End of scene? " + current.endReached);
         int index = button.choiceNum;
         Debug.Log("choice " + index);
+
+        // if its the end of the scene move to next scene in graph
         if (current.endReached)
         {
             if (current.nextScenes[index] != null)
             {
+                Debug.Log("Switching to choice " + index);
                 SwitchScene(current.nextScenes[index]);
             }
         }
+        // otherwise advance dialogue within current scene 
         else
         {
-            current.advanceDialogue(index);
+           Debug.Log("Advancing Dialogue to choice " + index);
+           current.advanceDialogue(index);
         }
 
-
-        //if (button.choiceNum == 0)
-        //{
-        //    Debug.Log("choice 1");
-        //    if (current.endReached) 
-        //    {
-        //        if(current.next1 != null)
-        //        {
-        //            SwitchScene(current.next1);
-        //        }
-        //    } 
-        //    else
-        //    {
-        //        current.advanceDialogue(button.choiceNum);
-        //    }
-            
-        //}
-        //else
-        //{
-        //    Debug.Log("choice 2");
-        //    if(current.endReached)
-        //    {
-        //        if(current.next2 != null)
-        //        {
-        //            SwitchScene(current.next2);
-        //        }
-                
-        //    } 
-        //    else
-        //    {
-        //        current.advanceDialogue(button.choiceNum);
-        //    }
-
-
-        //}
     }
 
 

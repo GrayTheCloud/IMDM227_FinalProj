@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc0ad13e42ed1df41afe94b6eb1d5731, type: 3}
   m_Name: Bedroom
   m_EditorClassIdentifier: 
-  curr: {fileID: 0}
+  curr: {fileID: 11400000, guid: 6bc4bada95a55d543b0958cb6ce05e25, type: 2}

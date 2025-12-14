@@ -6,7 +6,7 @@ public class DialogueNode: ScriptableObject, INode
 {
     // add num choices
     public int numChoices = 0;
-    public Character speaker;
+    public Character speaker = null;
     public DialogueNode[] choices = {null, null, null};
     public string[] choicesText = new string[3];
     [TextArea(5, 10)]

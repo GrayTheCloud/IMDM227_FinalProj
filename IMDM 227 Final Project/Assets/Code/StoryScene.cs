@@ -12,7 +12,7 @@ public class StoryScene : MonoBehaviour, INode
     public StoryScene[] nextScenes = new StoryScene[3];
 
     // plane that has the speaking character
-    public GameObject characterImg;
+    public MaterialChanger characterImg;
 
     // the three buttons and the text for them at the end of the scene
     public MyButton[] buttons  = new MyButton[3];
@@ -44,10 +44,15 @@ public class StoryScene : MonoBehaviour, INode
             // setting the head of the dialogue graph
             exchange.curr = exchange.start;
             Debug.Log(exchange.curr.numChoices);
-            // setting the main text to the first main text
-            // textMeshPro.text = exchange.curr.paragraph;
+            // typing first paragraph
             typingCorutine = StartCoroutine(TypeText(exchange.curr.paragraph));
             UpdateButtons(exchange.curr.numChoices, exchange.curr.choicesText);
+
+            // updating character portrait to whoever is talking
+            if(exchange.curr.speaker != null)
+            {
+                characterImg.SetMaterial(exchange.curr.speaker.characterMaterial);
+            }
             // if there is only one node in the graph the end has been reached
             endReached = exchange.curr.numChoices == 0;
         }
@@ -78,24 +83,22 @@ public class StoryScene : MonoBehaviour, INode
             // if the next node isn't null 
             if (exchange.curr != null)
             {
-                // set textbox text to paragraph of the current node
-                // textMeshPro.text = exchange.curr.paragraph;
+                // start typing next paragraph
                 typingCorutine = StartCoroutine(TypeText(exchange.curr.paragraph));
+
                 // activate one button per dialogue choice and add text to button
-                
                 int numChoices = exchange.curr.numChoices;
                 Debug.Log("This node has " + numChoices + " choices.");
-                // for (int i = 0; i < numChoices; i++)
-                // {
-                //     Debug.Log("I'm turining on button " + i);
-                //     buttons[i].gameObject.SetActive(true);
-                //     buttons[i].text.text = exchange.curr.choicesText[i];
-                // }
-
                 UpdateButtons(numChoices, exchange.curr.choicesText);
-                // Debug.Log(exchange.curr.numChoices);
+
+                // updating character portrait to whoever is talking
+                if (exchange.curr.speaker != null)
+                {
+                    characterImg.SetMaterial(exchange.curr.speaker.characterMaterial);
+                }
+
                 // if there are no more reachable nodes run the end of the scene has been reached
-                if(numChoices == 0)
+                if (numChoices == 0)
                 {
                     endReached = true;
                     EndReached();
@@ -118,10 +121,6 @@ public class StoryScene : MonoBehaviour, INode
     }
 
 
-    private void callType(string p)
-    {
-        typingCorutine = StartCoroutine(TypeText(p));
-    }
 
     // modified from code for an IMDM 101 project
     private IEnumerator TypeText(string p)

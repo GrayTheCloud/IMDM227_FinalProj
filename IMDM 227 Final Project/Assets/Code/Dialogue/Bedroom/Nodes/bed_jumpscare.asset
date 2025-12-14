@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: bed_jumpscare
   m_EditorClassIdentifier: 
   numChoices: 1
-  speaker: {fileID: 0}
+  speaker: {fileID: 11400000, guid: b4e616e0ea494b84c924019bb020ae57, type: 2}
   choices:
   - {fileID: 11400000, guid: 5f9381099eea8f74ea3cc06ceefd24b5, type: 2}
   - {fileID: 0}

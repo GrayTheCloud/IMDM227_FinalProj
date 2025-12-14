@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Setup_start
   m_EditorClassIdentifier: 
   numChoices: 1
-  speaker: {fileID: 0}
+  speaker: {fileID: 11400000, guid: 1bb48a7882895ae4b8c83d0f541b3dd4, type: 2}
   choices:
   - {fileID: 11400000, guid: a44ef321ab7a72544bc6151645ffb470, type: 2}
   - {fileID: 0}

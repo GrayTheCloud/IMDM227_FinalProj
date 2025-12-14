@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: bed_what
   m_EditorClassIdentifier: 
   numChoices: 1
-  speaker: {fileID: 0}
+  speaker: {fileID: 11400000, guid: 6cac49a251cf9cc4b865bb07098ea555, type: 2}
   choices:
   - {fileID: 11400000, guid: 7a7299f02bf726e4982bf973bda9d0e6, type: 2}
   - {fileID: 0}

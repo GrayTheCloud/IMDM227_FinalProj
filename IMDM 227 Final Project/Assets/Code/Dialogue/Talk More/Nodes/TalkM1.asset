@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TalkM1
   m_EditorClassIdentifier: 
   numChoices: 2
-  speaker: {fileID: 0}
+  speaker: {fileID: 11400000, guid: 281260b052fcd024484cd397df4d6e98, type: 2}
   choices:
   - {fileID: 11400000, guid: 5f9381099eea8f74ea3cc06ceefd24b5, type: 2}
   - {fileID: 11400000, guid: 13bdb039feaac284da45d74b447835a9, type: 2}

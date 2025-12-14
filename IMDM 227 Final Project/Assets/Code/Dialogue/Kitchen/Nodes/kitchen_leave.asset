@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: kitchen_leave
   m_EditorClassIdentifier: 
   numChoices: 1
-  speaker: {fileID: 0}
+  speaker: {fileID: 11400000, guid: 281260b052fcd024484cd397df4d6e98, type: 2}
   choices:
   - {fileID: 11400000, guid: 4a3ed36d6abce10479ad350665daa4a9, type: 2}
   - {fileID: 0}

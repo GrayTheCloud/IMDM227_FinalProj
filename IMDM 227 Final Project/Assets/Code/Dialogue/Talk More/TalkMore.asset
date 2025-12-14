@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bc0ad13e42ed1df41afe94b6eb1d5731, type: 3}
-  m_Name: Bedroom
+  m_Name: TalkMore
   m_EditorClassIdentifier: 
-  start: {fileID: 11400000, guid: 3fcb92459fa685844912386e9721131b, type: 2}
+  start: {fileID: 11400000, guid: bcbb56c1907783943a4e31225a60fb21, type: 2}
   curr: {fileID: 0}

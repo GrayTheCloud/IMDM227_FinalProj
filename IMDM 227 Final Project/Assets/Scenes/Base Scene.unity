@@ -969,15 +969,15 @@ PrefabInstance:
       objectReference: {fileID: 1956378224}
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'choicesText.Array.data[0]'
-      value: leave
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'choicesText.Array.data[1]'
-      value: talk more
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'choicesText.Array.data[2]'
-      value: put stuff away
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4895283015227941777, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: m_Name

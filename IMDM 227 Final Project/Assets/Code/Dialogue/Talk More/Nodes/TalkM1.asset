@@ -10,16 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 06fcdd36a82a0994596cb2355f006091, type: 3}
-  m_Name: bed_jumpscare
+  m_Name: TalkM1
   m_EditorClassIdentifier: 
-  numChoices: 1
-  speaker: {fileID: 0}
+  numChoices: 2
+  speaker: {fileID: 11400000, guid: 281260b052fcd024484cd397df4d6e98, type: 2}
   choices:
   - {fileID: 11400000, guid: 5f9381099eea8f74ea3cc06ceefd24b5, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 13bdb039feaac284da45d74b447835a9, type: 2}
   - {fileID: 0}
   choicesText:
-  - Leave!
+  - Show me more!
+  - This place is themed? Cool!
   - 
-  - 
-  paragraph: AHHHHHH!!!!
+  paragraph: I've had this residence for quite some time! In fact, I just opened
+    it to the public recently in order to get some new blood flowing through these
+    haunted halls!

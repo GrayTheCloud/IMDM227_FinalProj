@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 06fcdd36a82a0994596cb2355f006091, type: 3}
-  m_Name: bed_jumpscare
+  m_Name: kitchen_leave
   m_EditorClassIdentifier: 
   numChoices: 1
-  speaker: {fileID: 0}
+  speaker: {fileID: 11400000, guid: 281260b052fcd024484cd397df4d6e98, type: 2}
   choices:
-  - {fileID: 11400000, guid: 5f9381099eea8f74ea3cc06ceefd24b5, type: 2}
+  - {fileID: 11400000, guid: 4a3ed36d6abce10479ad350665daa4a9, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   choicesText:
-  - Leave!
+  - ...I gotta go.
   - 
   - 
-  paragraph: AHHHHHH!!!!
+  paragraph: You're looking a bit faint there. Go rest up!

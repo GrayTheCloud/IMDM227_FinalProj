@@ -12,13 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06fcdd36a82a0994596cb2355f006091, type: 3}
   m_Name: bed_what
   m_EditorClassIdentifier: 
+  numChoices: 1
   speaker: {fileID: 0}
   choices:
-  - {fileID: 11400000, guid: c488c2b926e4b2745b021af2f7878a5a, type: 2}
+  - {fileID: 11400000, guid: 7a7299f02bf726e4982bf973bda9d0e6, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   choicesText:
+  - Open it
   - 
   - 
-  - 
-  paragraph: owo whats this?
+  paragraph: What is that?

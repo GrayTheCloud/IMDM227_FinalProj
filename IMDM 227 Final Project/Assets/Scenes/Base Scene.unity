@@ -222,7 +222,7 @@ PrefabInstance:
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: exchange
       value: 
-      objectReference: {fileID: 11400000, guid: 76b8274b08587b145b1b647ba70a8279, type: 2}
+      objectReference: {fileID: 11400000, guid: 38f9497ea6e34094498020350525e1a0, type: 2}
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: numChoices
       value: 1
@@ -238,7 +238,7 @@ PrefabInstance:
     - target: {fileID: 4875117294056376192, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 98bb7ee0f6063334d97a565f36cf1691, type: 2}
+      objectReference: {fileID: 2100000, guid: 081c908661167bf428d845f1f0d44cc9, type: 2}
     - target: {fileID: 4895283015227941777, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: m_Name
       value: Leave (cool style)

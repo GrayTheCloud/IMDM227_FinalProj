@@ -128,6 +128,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: exchange
+      value: 
+      objectReference: {fileID: 11400000, guid: 397848903d285b04e88f638e0030db8d, type: 2}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: numChoices
       value: 1
       objectReference: {fileID: 0}
@@ -135,6 +139,10 @@ PrefabInstance:
       propertyPath: 'nextScenes.Array.data[0]'
       value: 
       objectReference: {fileID: 1913850447}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'choicesText.Array.data[0]'
+      value: Okay!
+      objectReference: {fileID: 0}
     - target: {fileID: 4875117294056376192, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -212,6 +220,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: exchange
+      value: 
+      objectReference: {fileID: 11400000, guid: 76b8274b08587b145b1b647ba70a8279, type: 2}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: numChoices
       value: 1
       objectReference: {fileID: 0}
@@ -223,6 +235,10 @@ PrefabInstance:
       propertyPath: 'choicesText.Array.data[0]'
       value: Restart?
       objectReference: {fileID: 0}
+    - target: {fileID: 4875117294056376192, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 98bb7ee0f6063334d97a565f36cf1691, type: 2}
     - target: {fileID: 4895283015227941777, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: m_Name
       value: Leave (cool style)
@@ -438,7 +454,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   current: {fileID: 1020254971}
---- !u!1001 &695571837
+--- !u!1001 &654834286
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -446,6 +462,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: exchange
+      value: 
+      objectReference: {fileID: 11400000, guid: 3caefe94f3c170c4898c7b9d43cda63f, type: 2}
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: numChoices
       value: 1
@@ -456,7 +476,100 @@ PrefabInstance:
       objectReference: {fileID: 2103512530}
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'choicesText.Array.data[0]'
-      value: go to kitchen
+      value: Show me around?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'choicesText.Array.data[1]'
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875117294056376192, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 63272365768b57f43a9175300292c2a1, type: 2}
+    - target: {fileID: 4895283015227941777, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_Name
+      value: Talk More Cont
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 201.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -123.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8751543534525429252, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 54fab24e0a8995c4c90101847babc0fa, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+--- !u!1001 &695571837
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: exchange
+      value: 
+      objectReference: {fileID: 11400000, guid: 3a2507cf3af6bf046ba36942d7682d89, type: 2}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: numChoices
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'nextScenes.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2103512530}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'nextScenes.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2145974413}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'choicesText.Array.data[0]'
+      value: Show me more!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'choicesText.Array.data[1]'
+      value: This place is themed? Cool!
       objectReference: {fileID: 0}
     - target: {fileID: 4875117294056376192, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -548,6 +661,87 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79aab1713d2a1f04f97d5a9e00499f18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1041052383
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: exchange
+      value: 
+      objectReference: {fileID: 11400000, guid: 6548911f04905a44b8449b742e795872, type: 2}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: numChoices
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'nextScenes.Array.data[0]'
+      value: 
+      objectReference: {fileID: 180326667}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'choicesText.Array.data[0]'
+      value: Really, I gotta go!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875117294056376192, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 4b5d272e721810c4eafed65b3bd5e25c, type: 2}
+    - target: {fileID: 4895283015227941777, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_Name
+      value: tense conversation (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -405
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -450
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8751543534525429252, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 213d9577c1096c943b448069e6f06e85, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
 --- !u!1 &1043998304
 GameObject:
   m_ObjectHideFlags: 0
@@ -669,6 +863,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &1276917589 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+  m_PrefabInstance: {fileID: 1041052383}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79aab1713d2a1f04f97d5a9e00499f18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1305499096
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -771,17 +976,25 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: exchange
+      value: 
+      objectReference: {fileID: 11400000, guid: c8a4940aba7de4f4682ac2e65e41a412, type: 2}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: numChoices
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'nextScenes.Array.data[0]'
       value: 
-      objectReference: {fileID: 180326667}
+      objectReference: {fileID: 1276917589}
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'choicesText.Array.data[0]'
-      value: leave (cool)
+      value: ...I gotta go.
       objectReference: {fileID: 0}
+    - target: {fileID: 4875117294056376192, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 4b5d272e721810c4eafed65b3bd5e25c, type: 2}
     - target: {fileID: 4895283015227941777, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: m_Name
       value: tense conversation
@@ -846,6 +1059,87 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79aab1713d2a1f04f97d5a9e00499f18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1345708920
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: exchange
+      value: 
+      objectReference: {fileID: 11400000, guid: 2dd6818e9be6e59448903b4a94b7165f, type: 2}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: numChoices
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'nextScenes.Array.data[0]'
+      value: 
+      objectReference: {fileID: 704853173}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'choicesText.Array.data[0]'
+      value: Open it
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875117294056376192, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d8131b391c0bcfd4988c28bb0608a410, type: 2}
+    - target: {fileID: 4895283015227941777, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_Name
+      value: bedroom Investigate
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 401.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -228.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522519200439440730, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8751543534525429252, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f41d30fc69de66d469ff7d2ab72a0d41, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
 --- !u!1001 &1547251705
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -854,6 +1148,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: exchange
+      value: 
+      objectReference: {fileID: 11400000, guid: 4e6f27bef12660e4f999da35c8ab7551, type: 2}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: numChoices
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'nextScenes.Array.data[0]'
       value: 
@@ -865,7 +1167,7 @@ PrefabInstance:
     - target: {fileID: 4875117294056376192, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 081c908661167bf428d845f1f0d44cc9, type: 2}
+      objectReference: {fileID: 2100000, guid: 98bb7ee0f6063334d97a565f36cf1691, type: 2}
     - target: {fileID: 4895283015227941777, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: m_Name
       value: Leave (Lame Style)
@@ -939,6 +1241,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: exchange
+      value: 
+      objectReference: {fileID: 11400000, guid: d28291b621056314b8b0d3c013c39acc, type: 2}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: numChoices
       value: 1
       objectReference: {fileID: 0}
@@ -946,6 +1252,10 @@ PrefabInstance:
       propertyPath: 'nextScenes.Array.data[0]'
       value: 
       objectReference: {fileID: 2103512530}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: 'choicesText.Array.data[0]'
+      value: Leave!
+      objectReference: {fileID: 0}
     - target: {fileID: 4875117294056376192, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1037,15 +1347,15 @@ PrefabInstance:
       objectReference: {fileID: 1956378224}
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'choicesText.Array.data[0]'
-      value: 
+      value: I gotta get out of here!
       objectReference: {fileID: 0}
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'choicesText.Array.data[1]'
-      value: 
+      value: Cool! Tell me more!
       objectReference: {fileID: 0}
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'choicesText.Array.data[2]'
-      value: 
+      value: Put my stuff away.
       objectReference: {fileID: 0}
     - target: {fileID: 4895283015227941777, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: m_Name
@@ -1120,6 +1430,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: exchange
+      value: 
+      objectReference: {fileID: 11400000, guid: 76b8274b08587b145b1b647ba70a8279, type: 2}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: numChoices
       value: 1
       objectReference: {fileID: 0}
@@ -1134,7 +1448,7 @@ PrefabInstance:
     - target: {fileID: 4875117294056376192, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 63272365768b57f43a9175300292c2a1, type: 2}
+      objectReference: {fileID: 2100000, guid: c2174d58a57112c42bd4250c665d91f7, type: 2}
     - target: {fileID: 4895283015227941777, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: m_Name
       value: 'Die '
@@ -1226,14 +1540,14 @@ PrefabInstance:
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'nextScenes.Array.data[1]'
       value: 
-      objectReference: {fileID: 704853173}
+      objectReference: {fileID: 1970143476}
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'choicesText.Array.data[0]'
-      value: go to kitchen
+      value: Explore elsewhere
       objectReference: {fileID: 0}
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'choicesText.Array.data[1]'
-      value: look around bedroom
+      value: Look around
       objectReference: {fileID: 0}
     - target: {fileID: 4875117294056376192, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -1303,6 +1617,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79aab1713d2a1f04f97d5a9e00499f18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1970143476 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+  m_PrefabInstance: {fileID: 1345708920}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79aab1713d2a1f04f97d5a9e00499f18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2103512529
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1312,24 +1637,28 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+      propertyPath: exchange
+      value: 
+      objectReference: {fileID: 11400000, guid: c93317c21be49ff40b35ae1b25b9e1f2, type: 2}
+    - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: numChoices
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'nextScenes.Array.data[0]'
       value: 
-      objectReference: {fileID: 1306028225}
+      objectReference: {fileID: 35831796}
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'nextScenes.Array.data[1]'
       value: 
-      objectReference: {fileID: 35831796}
+      objectReference: {fileID: 1306028225}
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'choicesText.Array.data[0]'
-      value: tense convo
+      value: Got anything to eat?
       objectReference: {fileID: 0}
     - target: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: 'choicesText.Array.data[1]'
-      value: go to bed
+      value: Weird! I wanna leave.
       objectReference: {fileID: 0}
     - target: {fileID: 4895283015227941777, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
       propertyPath: m_Name
@@ -1395,6 +1724,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79aab1713d2a1f04f97d5a9e00499f18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2145974413 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4100532349001932373, guid: 2189d8cf48b95ff449362e2f61f1350d, type: 3}
+  m_PrefabInstance: {fileID: 654834286}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79aab1713d2a1f04f97d5a9e00499f18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1405,10 +1745,13 @@ SceneRoots:
   - {fileID: 1877882310}
   - {fileID: 1547251705}
   - {fileID: 695571837}
+  - {fileID: 654834286}
   - {fileID: 1956378223}
   - {fileID: 2103512529}
   - {fileID: 1590761446}
+  - {fileID: 1345708920}
   - {fileID: 1306028224}
+  - {fileID: 1041052383}
   - {fileID: 35831795}
   - {fileID: 180326666}
   - {fileID: 1913850446}

@@ -15,11 +15,13 @@ MonoBehaviour:
   numChoices: 0
   speaker: {fileID: 0}
   choices:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 5f9381099eea8f74ea3cc06ceefd24b5, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   choicesText:
   - 
   - 
   - 
-  paragraph: 
+  paragraph: Oh yes, themed! I do hope that you enjoy your stay. It sucks that you
+    wont be here for long... that you won't be staying here longer then a few nights
+    that is.

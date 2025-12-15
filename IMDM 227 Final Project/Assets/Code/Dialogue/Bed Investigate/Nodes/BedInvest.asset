@@ -15,7 +15,7 @@ MonoBehaviour:
   numChoices: 0
   speaker: {fileID: 0}
   choices:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 79ad8a1014e464f4eb90abdea7e7e8b6, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   choicesText:

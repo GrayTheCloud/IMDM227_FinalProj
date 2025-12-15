@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc0ad13e42ed1df41afe94b6eb1d5731, type: 3}
   m_Name: TalkMreContinued
   m_EditorClassIdentifier: 
-  start: {fileID: 0}
-  curr: {fileID: 0}
+  start: {fileID: 11400000, guid: bf3a195f8d5043644bb774261afa6727, type: 2}
+  curr: {fileID: 11400000, guid: bf3a195f8d5043644bb774261afa6727, type: 2}

@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06fcdd36a82a0994596cb2355f006091, type: 3}
   m_Name: Bed_start
   m_EditorClassIdentifier: 
-  numChoices: 2
+  numChoices: 0
   speaker: {fileID: 11400000, guid: 6cac49a251cf9cc4b865bb07098ea555, type: 2}
   choices:
   - {fileID: 11400000, guid: 5f9381099eea8f74ea3cc06ceefd24b5, type: 2}
   - {fileID: 11400000, guid: 6bc4bada95a55d543b0958cb6ce05e25, type: 2}
   - {fileID: 0}
   choicesText:
-  - Explore elsewhere
-  - Look around
+  - 
+  - 
   - 
   paragraph: This place looks really nice!

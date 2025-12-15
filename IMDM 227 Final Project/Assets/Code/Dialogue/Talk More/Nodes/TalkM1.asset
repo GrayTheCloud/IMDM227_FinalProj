@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06fcdd36a82a0994596cb2355f006091, type: 3}
   m_Name: TalkM1
   m_EditorClassIdentifier: 
-  numChoices: 2
+  numChoices: 0
   speaker: {fileID: 11400000, guid: 579bcf8e0503a8b47a3e87a645bf10b2, type: 2}
   choices:
   - {fileID: 11400000, guid: 5f9381099eea8f74ea3cc06ceefd24b5, type: 2}
   - {fileID: 11400000, guid: 13bdb039feaac284da45d74b447835a9, type: 2}
   - {fileID: 0}
   choicesText:
-  - Show me more!
-  - This place is themed? Cool!
+  - 
+  - 
   - 
   paragraph: I've had this residence for quite some time! In fact, I just opened
     it to the public recently in order to get some new blood flowing through these

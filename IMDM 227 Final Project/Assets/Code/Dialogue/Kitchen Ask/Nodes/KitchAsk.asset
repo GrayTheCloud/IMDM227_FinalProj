@@ -15,11 +15,11 @@ MonoBehaviour:
   numChoices: 0
   speaker: {fileID: 0}
   choices:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 6b522a4d3b5fa014ab71027a48f3cb3e, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   choicesText:
   - 
   - 
   - 
-  paragraph: 
+  paragraph: "Dinner arrived quite recently actually why don\u2019t you go get ready?"

@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06fcdd36a82a0994596cb2355f006091, type: 3}
   m_Name: B_Ending
   m_EditorClassIdentifier: 
-  numChoices: 1
+  numChoices: 0
   speaker: {fileID: 0}
   choices:
-  - {fileID: 11400000, guid: 525a77157fe7ace4f8949c832bd0c71e, type: 2}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   choicesText:
-  - Restart?
+  - 
   - 
   - 
   paragraph: 'GAME OVER

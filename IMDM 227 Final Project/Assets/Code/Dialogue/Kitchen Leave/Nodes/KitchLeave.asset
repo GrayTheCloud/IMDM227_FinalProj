@@ -15,11 +15,11 @@ MonoBehaviour:
   numChoices: 0
   speaker: {fileID: 0}
   choices:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 8faf82600b5bb6549b461438b80b0e54, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   choicesText:
   - 
   - 
   - 
-  paragraph: 
+  paragraph: You're looking a bit faint there. Go rest up!

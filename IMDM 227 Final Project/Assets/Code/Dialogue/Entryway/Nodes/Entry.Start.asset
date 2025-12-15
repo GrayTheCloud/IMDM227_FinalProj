@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06fcdd36a82a0994596cb2355f006091, type: 3}
+  m_Name: Entry.Start
+  m_EditorClassIdentifier: 
+  numChoices: 0
+  speaker: {fileID: 11400000, guid: 281260b052fcd024484cd397df4d6e98, type: 2}
+  choices:
+  - {fileID: 11400000, guid: bcbb56c1907783943a4e31225a60fb21, type: 2}
+  - {fileID: 11400000, guid: 3fcb92459fa685844912386e9721131b, type: 2}
+  - {fileID: 11400000, guid: a6a6aa23bd2704e41ade0f168027559f, type: 2}
+  choicesText:
+  - 
+  - 
+  - 
+  paragraph: Come in come in, Welcome. I'm your host Dr.Acula please make yourself
+    comfortable, many people have found this to be a great resting place.

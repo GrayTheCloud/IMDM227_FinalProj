@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 06fcdd36a82a0994596cb2355f006091, type: 3}
-  m_Name: bed_what
+  m_Name: TalkMore2
   m_EditorClassIdentifier: 
-  numChoices: 1
-  speaker: {fileID: 11400000, guid: 6cac49a251cf9cc4b865bb07098ea555, type: 2}
+  numChoices: 0
+  speaker: {fileID: 0}
   choices:
-  - {fileID: 11400000, guid: 7a7299f02bf726e4982bf973bda9d0e6, type: 2}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   choicesText:
-  - Open it
   - 
   - 
-  paragraph: What is that?
+  - 
+  paragraph: 

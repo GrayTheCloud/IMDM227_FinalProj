@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06fcdd36a82a0994596cb2355f006091, type: 3}
   m_Name: Setup_start
   m_EditorClassIdentifier: 
-  numChoices: 1
-  speaker: {fileID: 0}
+  numChoices: 0
+  speaker: {fileID: 11400000, guid: 1bb48a7882895ae4b8c83d0f541b3dd4, type: 2}
   choices:
-  - {fileID: 11400000, guid: a44ef321ab7a72544bc6151645ffb470, type: 2}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   choicesText:
-  - Go inside
+  - 
   - 
   - 
   paragraph: This AirBnb is massive I can't believe it was so cheap!

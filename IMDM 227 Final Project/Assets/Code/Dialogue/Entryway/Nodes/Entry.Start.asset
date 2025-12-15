@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06fcdd36a82a0994596cb2355f006091, type: 3}
   m_Name: Entry.Start
   m_EditorClassIdentifier: 
-  numChoices: 3
+  numChoices: 0
   speaker: {fileID: 11400000, guid: 281260b052fcd024484cd397df4d6e98, type: 2}
   choices:
   - {fileID: 11400000, guid: bcbb56c1907783943a4e31225a60fb21, type: 2}
   - {fileID: 11400000, guid: 3fcb92459fa685844912386e9721131b, type: 2}
   - {fileID: 11400000, guid: a6a6aa23bd2704e41ade0f168027559f, type: 2}
   choicesText:
-  - Cool! Tell me more!
-  - I gotta put my stuff down.
-  - I gotta get out of here!
+  - 
+  - 
+  - 
   paragraph: Come in come in, Welcome. I'm your host Dr.Acula please make yourself
     comfortable, many people have found this to be a great resting place.

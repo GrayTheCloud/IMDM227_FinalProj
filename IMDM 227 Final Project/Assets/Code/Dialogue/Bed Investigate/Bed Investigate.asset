@@ -9,19 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06fcdd36a82a0994596cb2355f006091, type: 3}
-  m_Name: B_Ending
+  m_Script: {fileID: 11500000, guid: bc0ad13e42ed1df41afe94b6eb1d5731, type: 3}
+  m_Name: Bed Investigate
   m_EditorClassIdentifier: 
-  numChoices: 0
-  speaker: {fileID: 0}
-  choices:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  choicesText:
-  - 
-  - 
-  - 
-  paragraph: 'GAME OVER
-
-    You died to an AirBnb host!'
+  start: {fileID: 11400000, guid: a39556a89dcd413468f773c689275c4f, type: 2}
+  curr: {fileID: 11400000, guid: a39556a89dcd413468f773c689275c4f, type: 2}
